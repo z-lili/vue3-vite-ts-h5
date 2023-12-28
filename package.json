@@ -12,7 +12,7 @@
 		"preview": "vite preview",
 		"ts": "vue-tsc --noEmit",
 		"prepare": "npx husky install",
-		"lint:eslint": "eslint \"src/**/*.{vue,ts,js,json,cjs,tsx,jsx}\" --fix",
+		"lint:eslint": "eslint \"src/**/*.{vue,ts,js,cjs,tsx,jsx}\" --fix",
 		"lint:lint-staged": "lint-staged",
 		"commit": "git add . && git-cz"
 	},
