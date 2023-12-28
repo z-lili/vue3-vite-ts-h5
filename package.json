@@ -50,7 +50,7 @@
 		"*.{js,ts}": [ "eslint --fix"],
 		"*.{cjs,json}": [],
 		"*.{vue,html}": [ "eslint --fix"],
-		"*.{scss,css}": [ "eslint --fix"],
+		"*.{scss,css}": [],
 		"*.md": []
 	},
 	"config": {
