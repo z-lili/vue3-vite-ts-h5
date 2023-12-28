@@ -14,7 +14,7 @@
 		"prepare": "npx husky install",
 		"lint:eslint": "eslint \"src/**/*.{vue,ts,js,json,cjs,tsx,jsx}\" --fix",
 		"lint:lint-staged": "lint-staged",
-		"commit": "git-cz"
+		"commit": "git add . && git-cz"
 	},
 	"dependencies": {
 		"@nutui/icons-vue": "^0.1.1",
@@ -47,10 +47,10 @@
 		"vue-tsc": "^1.8.5"
 	},
 	"lint-staged": {
-		"*.{js,ts}": [],
+		"*.{js,ts}": [ "eslint --fix"],
 		"*.{cjs,json}": [],
-		"*.{vue,html}": [],
-		"*.{scss,css}": [],
+		"*.{vue,html}": [ "eslint --fix"],
+		"*.{scss,css}": [ "eslint --fix"],
 		"*.md": []
 	},
 	"config": {
