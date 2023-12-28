@@ -9,7 +9,7 @@ pnpm i
 ```
 
 ```
-pnpm run dev
+pnpm start
 ```
 
 ## 规范
