@@ -15,7 +15,9 @@
 </template>
 
 <script setup lang="ts">
-// import { Add } from '@nutui/icons-vue'
+import { Add } from '@nutui/icons-vue'
+
+const adddd = 15
 
 console.log('114514')
 </script>

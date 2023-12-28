@@ -79,5 +79,9 @@ module.exports = {
 		"vue/prefer-true-attribute-shorthand": "warn",
 		// prop 默认值
 		"vue/require-default-prop": "off",
+		// 变量未使用
+		"no-unused-vars": "off",
+		// 变量未使用 覆盖 @typescript-eslint 中的规则
+		'@typescript-eslint/no-unused-vars': ['warn'],
 	}
 }

@@ -5,6 +5,7 @@
 	"type": "module",
 	"scripts": {
 		"dev": "vite",
+		"start": "pnpm run dev",
 		"buildsimba3test": "rimraf ../dist && vite build --mode simba3test",
 		"buildsit": "rimraf ../dist && vite build --mode sit",
 		"build": "rimraf ../dist && vite build --mode release",
