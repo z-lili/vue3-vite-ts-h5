@@ -37,6 +37,8 @@ module.exports = {
 		// "off" 或 0 - 关闭该规则"warn" 或 1 - 启用并警告（不影响现有代码）"error" 或 2 - 启用并报错（错误代码 1）
 		'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
 		'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+		// 可以使用未导入的变量或者模块
+		"no-undef": "off",
 		//在rules中添加自定义规则
 		//关闭组件命名规则
 		"vue/multi-word-component-names": "off",

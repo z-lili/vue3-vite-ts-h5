@@ -11,13 +11,14 @@
 			<li>45</li>
 		</ul>
 		<div class="aaa" />
+		<Test />
 	</div>
 </template>
 
 <script setup lang="ts">
-import { Add } from '@nutui/icons-vue'
+import Test from '@/components/Test.vue'
 
-const adddd = 15
+// const adddd = 15
 
 console.log('114514')
 </script>
@@ -32,5 +33,8 @@ console.log('114514')
 	width: p2r(200);
 	height: p2r(100);
 	background-color: pink;
+}
+.son-style {
+	color: red;
 }
 </style>
