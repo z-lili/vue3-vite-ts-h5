@@ -1,18 +1,18 @@
 <template>
-	<div>
-		<nut-button type="warning">
-			sssss
-		</nut-button>
-		<ul>
-			<li class="asd">
-				45
-			</li>
-			<li>45</li>
-			<li>45</li>
-		</ul>
-		<div class="aaa" />
-		<Test />
-	</div>
+  <div>
+    <nut-button type="warning">
+      sssss
+    </nut-button>
+    <ul>
+      <li class="asd">
+        45
+      </li>
+      <li>45</li>
+      <li>45</li>
+    </ul>
+    <div class="aaa" />
+    <Test />
+  </div>
 </template>
 
 <script setup lang="ts">
